@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* moneyfrogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* moneyfrogTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1D3D771BC13A40ACADEC2442 /* libPods-moneyfrog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 637EFA01A73CEC622C01044A /* libPods-moneyfrog.a */; };
+		4284BFE328617FDA00409FC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4284BFE228617FDA00409FC5 /* GoogleService-Info.plist */; };
+		42E3E7122850778100D1ED9E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7002850778100D1ED9E /* Roboto-Medium.ttf */; };
+		42E3E7132850778100D1ED9E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7012850778100D1ED9E /* Roboto-Light.ttf */; };
+		42E3E7142850778100D1ED9E /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7022850778100D1ED9E /* RobotoCondensed-Bold.ttf */; };
+		42E3E7152850778100D1ED9E /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7032850778100D1ED9E /* RobotoCondensed-Light.ttf */; };
+		42E3E7162850778100D1ED9E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7042850778100D1ED9E /* Roboto-Regular.ttf */; };
+		42E3E7172850778100D1ED9E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7052850778100D1ED9E /* Roboto-MediumItalic.ttf */; };
+		42E3E7182850778100D1ED9E /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7062850778100D1ED9E /* RobotoCondensed-Italic.ttf */; };
+		42E3E7192850778100D1ED9E /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7072850778100D1ED9E /* RobotoCondensed-BoldItalic.ttf */; };
+		42E3E71A2850778100D1ED9E /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7082850778100D1ED9E /* RobotoCondensed-LightItalic.ttf */; };
+		42E3E71B2850778100D1ED9E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7092850778100D1ED9E /* Roboto-ThinItalic.ttf */; };
+		42E3E71C2850778100D1ED9E /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E70A2850778100D1ED9E /* RobotoCondensed-Regular.ttf */; };
+		42E3E71D2850778100D1ED9E /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E70B2850778100D1ED9E /* Roboto-BoldItalic.ttf */; };
+		42E3E71E2850778100D1ED9E /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E70C2850778100D1ED9E /* Roboto-LightItalic.ttf */; };
+		42E3E71F2850778100D1ED9E /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E70D2850778100D1ED9E /* Roboto-Italic.ttf */; };
+		42E3E7202850778100D1ED9E /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E70E2850778100D1ED9E /* Roboto-BlackItalic.ttf */; };
+		42E3E7212850778100D1ED9E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E70F2850778100D1ED9E /* Roboto-Bold.ttf */; };
+		42E3E7222850778100D1ED9E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7102850778100D1ED9E /* Roboto-Thin.ttf */; };
+		42E3E7232850778100D1ED9E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E3E7112850778100D1ED9E /* Roboto-Black.ttf */; };
+		8ABD06B8E062F1CE35646723 /* libPods-moneyfrog-moneyfrogTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDA70782D673593360124A1 /* libPods-moneyfrog-moneyfrogTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = moneyfrog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* moneyfrogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyfrogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* moneyfrogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moneyfrogTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* moneyfrog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneyfrog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = moneyfrog/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = moneyfrog/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = moneyfrog/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = moneyfrog/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = moneyfrog/main.m; sourceTree = "<group>"; };
+		24FB55095E14C28A9A09A82C /* Pods-moneyfrog-moneyfrogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyfrog-moneyfrogTests.debug.xcconfig"; path = "Target Support Files/Pods-moneyfrog-moneyfrogTests/Pods-moneyfrog-moneyfrogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41DC20D637F0275C41BEEAD8 /* Pods-moneyfrog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyfrog.debug.xcconfig"; path = "Target Support Files/Pods-moneyfrog/Pods-moneyfrog.debug.xcconfig"; sourceTree = "<group>"; };
+		4245474A2822A15500360873 /* moneyfrog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = moneyfrog.entitlements; path = moneyfrog/moneyfrog.entitlements; sourceTree = "<group>"; };
+		4284BFE228617FDA00409FC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42BBF55B284F3267000604CF /* welcome_five.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_five.jpg; sourceTree = "<group>"; };
+		42BBF55C284F3267000604CF /* flow_networth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flow_networth.png; sourceTree = "<group>"; };
+		42BBF55D284F3267000604CF /* flow_buysell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flow_buysell.png; sourceTree = "<group>"; };
+		42BBF55E284F3267000604CF /* welcome_one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_one.jpg; sourceTree = "<group>"; };
+		42BBF55F284F3267000604CF /* flow_goals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flow_goals.png; sourceTree = "<group>"; };
+		42BBF560284F3267000604CF /* welcome_three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_three.jpg; sourceTree = "<group>"; };
+		42BBF561284F3267000604CF /* flow_readings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flow_readings.png; sourceTree = "<group>"; };
+		42BBF562284F3267000604CF /* flow_dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flow_dashboard.png; sourceTree = "<group>"; };
+		42BBF563284F3267000604CF /* welcome_four.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_four.jpg; sourceTree = "<group>"; };
+		42BBF564284F3267000604CF /* welcome_two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome_two.jpg; sourceTree = "<group>"; };
+		42BBF566284F3267000604CF /* investMore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = investMore.png; sourceTree = "<group>"; };
+		42BBF567284F3267000604CF /* ic_note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_note.png; sourceTree = "<group>"; };
+		42BBF569284F3267000604CF /* nav_notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_notification.png; sourceTree = "<group>"; };
+		42BBF56A284F3267000604CF /* hamberger-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamberger-menu.png"; sourceTree = "<group>"; };
+		42BBF56B284F3267000604CF /* android_app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_app_logo.png; sourceTree = "<group>"; };
+		42BBF56D284F3267000604CF /* nav_rateus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_rateus.png; sourceTree = "<group>"; };
+		42BBF56E284F3267000604CF /* nav_notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_notification.png; sourceTree = "<group>"; };
+		42BBF56F284F3267000604CF /* profile_pic_generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_pic_generic.png; sourceTree = "<group>"; };
+		42BBF570284F3267000604CF /* ic_home_networth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_networth.png; sourceTree = "<group>"; };
+		42BBF571284F3267000604CF /* nav_mypost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_mypost.png; sourceTree = "<group>"; };
+		42BBF572284F3267000604CF /* nav_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_share.png; sourceTree = "<group>"; };
+		42BBF573284F3267000604CF /* ic_home_readings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_readings.png; sourceTree = "<group>"; };
+		42BBF574284F3267000604CF /* nav_dataentry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_dataentry.png; sourceTree = "<group>"; };
+		42BBF575284F3267000604CF /* ic_home_dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_dashboard.png; sourceTree = "<group>"; };
+		42BBF576284F3267000604CF /* nav_termscond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_termscond.png; sourceTree = "<group>"; };
+		42BBF577284F3267000604CF /* nav_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_profile.png; sourceTree = "<group>"; };
+		42BBF578284F3267000604CF /* ic_sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_sample.png; sourceTree = "<group>"; };
+		42BBF579284F3267000604CF /* ic_home_buy_sell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_buy_sell.png; sourceTree = "<group>"; };
+		42BBF57A284F3268000604CF /* chevron-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron-left.png"; sourceTree = "<group>"; };
+		42BBF57B284F3268000604CF /* nav_logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_logout.png; sourceTree = "<group>"; };
+		42BBF57C284F3268000604CF /* ic_home_goals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_goals.png; sourceTree = "<group>"; };
+		42BBF57D284F3268000604CF /* nav_change_pwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_change_pwd.png; sourceTree = "<group>"; };
+		42BBF57E284F3268000604CF /* nav_payoutalerts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_payoutalerts.png; sourceTree = "<group>"; };
+		42BBF57F284F3268000604CF /* nav_privacypolicy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_privacypolicy.png; sourceTree = "<group>"; };
+		42BBF580284F3268000604CF /* nav_referus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_referus.png; sourceTree = "<group>"; };
+		42BBF581284F3268000604CF /* nav_calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_calculator.png; sourceTree = "<group>"; };
+		42BBF582284F3268000604CF /* nav_demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_demo.png; sourceTree = "<group>"; };
+		42BBF583284F3268000604CF /* nav_subscription.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_subscription.png; sourceTree = "<group>"; };
+		42BBF584284F3268000604CF /* back-arrow-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow-96.png"; sourceTree = "<group>"; };
+		42BBF585284F3268000604CF /* green-background-with-fading-square-and-dots-free-vector.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "green-background-with-fading-square-and-dots-free-vector.jpeg"; sourceTree = "<group>"; };
+		42BBF587284F3268000604CF /* kids-education.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kids-education.png"; sourceTree = "<group>"; };
+		42BBF588284F3268000604CF /* medical-corpus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medical-corpus.png"; sourceTree = "<group>"; };
+		42BBF589284F3268000604CF /* others.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = others.png; sourceTree = "<group>"; };
+		42BBF58A284F3268000604CF /* loan-payoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loan-payoff.png"; sourceTree = "<group>"; };
+		42BBF58B284F3268000604CF /* wealth-creation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wealth-creation.png"; sourceTree = "<group>"; };
+		42BBF58C284F3268000604CF /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		42BBF58D284F3268000604CF /* contigency-fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contigency-fund.png"; sourceTree = "<group>"; };
+		42BBF58E284F3268000604CF /* retirement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retirement.png; sourceTree = "<group>"; };
+		42BBF58F284F3268000604CF /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		42BBF590284F3268000604CF /* vacation-trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vacation-trip.png"; sourceTree = "<group>"; };
+		42BBF591284F3268000604CF /* sabbatical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sabbatical.png; sourceTree = "<group>"; };
+		42BBF592284F3268000604CF /* marriage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marriage.png; sourceTree = "<group>"; };
+		42BBF594284F3268000604CF /* ic_home_networth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_networth.png; sourceTree = "<group>"; };
+		42BBF595284F3268000604CF /* Readings-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Readings-Active.png"; sourceTree = "<group>"; };
+		42BBF596284F3268000604CF /* ic_home_readings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_readings.png; sourceTree = "<group>"; };
+		42BBF597284F3268000604CF /* ic_home_dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_dashboard.png; sourceTree = "<group>"; };
+		42BBF598284F3268000604CF /* ic_home_buy_sell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_buy_sell.png; sourceTree = "<group>"; };
+		42BBF599284F3268000604CF /* ic_home_goals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_goals.png; sourceTree = "<group>"; };
+		42BBF59A284F3268000604CF /* Dashboard-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dashboard-Active.png"; sourceTree = "<group>"; };
+		42BBF59B284F3268000604CF /* Networth-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Networth-Active.png"; sourceTree = "<group>"; };
+		42BBF59C284F3268000604CF /* Mutual-Funds-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mutual-Funds-Active.png"; sourceTree = "<group>"; };
+		42BBF59D284F3268000604CF /* Assets-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Assets-Active.png"; sourceTree = "<group>"; };
+		42BBF59F284F3268000604CF /* purse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purse.png; sourceTree = "<group>"; };
+		42BBF5A1284F3268000604CF /* banner_referearn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_referearn.png; sourceTree = "<group>"; };
+		42BBF5A3284F3268000604CF /* post_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = post_bg.png; sourceTree = "<group>"; };
+		42BBF5A4284F3268000604CF /* profile_bg9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg9.png; sourceTree = "<group>"; };
+		42BBF5A5284F3268000604CF /* profile_bg8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg8.png; sourceTree = "<group>"; };
+		42BBF5A6284F3268000604CF /* profile_bg6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg6.png; sourceTree = "<group>"; };
+		42BBF5A7284F3268000604CF /* profile_bg7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg7.png; sourceTree = "<group>"; };
+		42BBF5A8284F3268000604CF /* profile_bg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg5.png; sourceTree = "<group>"; };
+		42BBF5A9284F3268000604CF /* profile_bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg4.png; sourceTree = "<group>"; };
+		42BBF5AA284F3268000604CF /* profile_bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg1.png; sourceTree = "<group>"; };
+		42BBF5AB284F3268000604CF /* profile_bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg3.png; sourceTree = "<group>"; };
+		42BBF5AC284F3268000604CF /* profile_bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_bg2.png; sourceTree = "<group>"; };
+		42BBF5AE284F3268000604CF /* ic_build_wealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_build_wealth.png; sourceTree = "<group>"; };
+		42BBF5AF284F3268000604CF /* ic_save_for_goal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_for_goal.png; sourceTree = "<group>"; };
+		42BBF5B0284F3268000604CF /* ic_smart_fd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_smart_fd.png; sourceTree = "<group>"; };
+		42BBF5B1284F3268000604CF /* ic_save_tax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_save_tax.png; sourceTree = "<group>"; };
+		42BBF5B3284F3268000604CF /* ic_insurance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_insurance.png; sourceTree = "<group>"; };
+		42BBF5B4284F3268000604CF /* ic_mutual_funds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_mutual_funds.png; sourceTree = "<group>"; };
+		42BBF5B5284F3268000604CF /* ic_loans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_loans.png; sourceTree = "<group>"; };
+		42BBF5B6284F3268000604CF /* ic_real_estate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_real_estate.png; sourceTree = "<group>"; };
+		42BBF5B7284F3268000604CF /* ic_bullions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_bullions.png; sourceTree = "<group>"; };
+		42BBF5B8284F3268000604CF /* ic_others.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_others.png; sourceTree = "<group>"; };
+		42BBF5B9284F3268000604CF /* ic_equity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_equity.png; sourceTree = "<group>"; };
+		42BBF5BA284F3268000604CF /* ic_fixed_income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_fixed_income.png; sourceTree = "<group>"; };
+		42BBF5BB284F3268000604CF /* ic_expected_lumpsum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_expected_lumpsum.png; sourceTree = "<group>"; };
+		42BBF5BD284F3268000604CF /* ic_notification_news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notification_news.png; sourceTree = "<group>"; };
+		42BBF5BE284F3268000604CF /* ic_notification_transaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notification_transaction.png; sourceTree = "<group>"; };
+		42BBF5BF284F3268000604CF /* cast_ic_notification_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cast_ic_notification_3.png; sourceTree = "<group>"; };
+		42BBF5C0284F3268000604CF /* ic_notification_blog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notification_blog.png; sourceTree = "<group>"; };
+		42BBF5C1284F3268000604CF /* ic_notification_blog-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_notification_blog-1.png"; sourceTree = "<group>"; };
+		42BBF5C2284F3268000604CF /* birthday_notification_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "birthday_notification_@3x.png"; sourceTree = "<group>"; };
+		42BBF5C3284F3268000604CF /* birthday_notification_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "birthday_notification_@2x.png"; sourceTree = "<group>"; };
+		42BBF5C4284F3268000604CF /* ic_notification_blog22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notification_blog22.png; sourceTree = "<group>"; };
+		42BBF5C6284F3268000604CF /* login_signup_curtain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_signup_curtain.png; sourceTree = "<group>"; };
+		42BBF5C7284F3268000604CF /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_login.png; sourceTree = "<group>"; };
+		42BBF5C8284F3268000604CF /* moneyfrog_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyfrog_face.png; sourceTree = "<group>"; };
+		42BBF5C9284F3268000604CF /* new_splash_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_splash_screen.png; sourceTree = "<group>"; };
+		42BBF5CA284F3268000604CF /* android_app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_app_logo.png; sourceTree = "<group>"; };
+		42BBF5CC284F3268000604CF /* scr1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr1.png; sourceTree = "<group>"; };
+		42BBF5CD284F3269000604CF /* scr3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr3.png; sourceTree = "<group>"; };
+		42BBF5CE284F3269000604CF /* scr2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr2.png; sourceTree = "<group>"; };
+		42BBF5CF284F3269000604CF /* android_app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_app_logo.png; sourceTree = "<group>"; };
+		42BBF5D0284F3269000604CF /* arrow-back-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-back-outline.png"; sourceTree = "<group>"; };
+		42BBF5D2284F3269000604CF /* no_data_found.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_data_found.png; sourceTree = "<group>"; };
+		42E3E7002850778100D1ED9E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		42E3E7012850778100D1ED9E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		42E3E7022850778100D1ED9E /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		42E3E7032850778100D1ED9E /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		42E3E7042850778100D1ED9E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		42E3E7052850778100D1ED9E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		42E3E7062850778100D1ED9E /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		42E3E7072850778100D1ED9E /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		42E3E7082850778100D1ED9E /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		42E3E7092850778100D1ED9E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		42E3E70A2850778100D1ED9E /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		42E3E70B2850778100D1ED9E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		42E3E70C2850778100D1ED9E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		42E3E70D2850778100D1ED9E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		42E3E70E2850778100D1ED9E /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		42E3E70F2850778100D1ED9E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		42E3E7102850778100D1ED9E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		42E3E7112850778100D1ED9E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		5BDA70782D673593360124A1 /* libPods-moneyfrog-moneyfrogTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moneyfrog-moneyfrogTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60873254D91D60BD5D78D080 /* Pods-moneyfrog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyfrog.release.xcconfig"; path = "Target Support Files/Pods-moneyfrog/Pods-moneyfrog.release.xcconfig"; sourceTree = "<group>"; };
+		637EFA01A73CEC622C01044A /* libPods-moneyfrog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moneyfrog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = moneyfrog/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A33AF6F009765EB6504F160A /* Pods-moneyfrog-moneyfrogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyfrog-moneyfrogTests.release.xcconfig"; path = "Target Support Files/Pods-moneyfrog-moneyfrogTests/Pods-moneyfrog-moneyfrogTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABD06B8E062F1CE35646723 /* libPods-moneyfrog-moneyfrogTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3D771BC13A40ACADEC2442 /* libPods-moneyfrog.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* moneyfrogTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* moneyfrogTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = moneyfrogTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* moneyfrog */ = {
+			isa = PBXGroup;
+			children = (
+				4284BFE228617FDA00409FC5 /* GoogleService-Info.plist */,
+				4245474A2822A15500360873 /* moneyfrog.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = moneyfrog;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				637EFA01A73CEC622C01044A /* libPods-moneyfrog.a */,
+				5BDA70782D673593360124A1 /* libPods-moneyfrog-moneyfrogTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42BBF558284F3267000604CF /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				42E3E6FF2850778100D1ED9E /* fonts */,
+				42BBF559284F3267000604CF /* Images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		42BBF559284F3267000604CF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF55A284F3267000604CF /* Demo */,
+				42BBF565284F3267000604CF /* Home */,
+				42BBF568284F3267000604CF /* Navbar */,
+				42BBF56C284F3267000604CF /* Drawer */,
+				42BBF584284F3268000604CF /* back-arrow-96.png */,
+				42BBF585284F3268000604CF /* green-background-with-fading-square-and-dots-free-vector.jpeg */,
+				42BBF586284F3268000604CF /* Goals */,
+				42BBF593284F3268000604CF /* BottomTab */,
+				42BBF59E284F3268000604CF /* transactions */,
+				42BBF5A0284F3268000604CF /* referAndEarn */,
+				42BBF5A2284F3268000604CF /* ProfileBg */,
+				42BBF5AD284F3268000604CF /* MfAdvantages */,
+				42BBF5B2284F3268000604CF /* Networth */,
+				42BBF5BC284F3268000604CF /* notifications */,
+				42BBF5C5284F3268000604CF /* Login */,
+				42BBF5CB284F3268000604CF /* Onboarding */,
+				42BBF5CF284F3269000604CF /* android_app_logo.png */,
+				42BBF5D0284F3269000604CF /* arrow-back-outline.png */,
+				42BBF5D1284F3269000604CF /* AssetPages */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		42BBF55A284F3267000604CF /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF55B284F3267000604CF /* welcome_five.jpg */,
+				42BBF55C284F3267000604CF /* flow_networth.png */,
+				42BBF55D284F3267000604CF /* flow_buysell.png */,
+				42BBF55E284F3267000604CF /* welcome_one.jpg */,
+				42BBF55F284F3267000604CF /* flow_goals.png */,
+				42BBF560284F3267000604CF /* welcome_three.jpg */,
+				42BBF561284F3267000604CF /* flow_readings.png */,
+				42BBF562284F3267000604CF /* flow_dashboard.png */,
+				42BBF563284F3267000604CF /* welcome_four.jpg */,
+				42BBF564284F3267000604CF /* welcome_two.jpg */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		42BBF565284F3267000604CF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF566284F3267000604CF /* investMore.png */,
+				42BBF567284F3267000604CF /* ic_note.png */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		42BBF568284F3267000604CF /* Navbar */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF569284F3267000604CF /* nav_notification.png */,
+				42BBF56A284F3267000604CF /* hamberger-menu.png */,
+				42BBF56B284F3267000604CF /* android_app_logo.png */,
+			);
+			path = Navbar;
+			sourceTree = "<group>";
+		};
+		42BBF56C284F3267000604CF /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF56D284F3267000604CF /* nav_rateus.png */,
+				42BBF56E284F3267000604CF /* nav_notification.png */,
+				42BBF56F284F3267000604CF /* profile_pic_generic.png */,
+				42BBF570284F3267000604CF /* ic_home_networth.png */,
+				42BBF571284F3267000604CF /* nav_mypost.png */,
+				42BBF572284F3267000604CF /* nav_share.png */,
+				42BBF573284F3267000604CF /* ic_home_readings.png */,
+				42BBF574284F3267000604CF /* nav_dataentry.png */,
+				42BBF575284F3267000604CF /* ic_home_dashboard.png */,
+				42BBF576284F3267000604CF /* nav_termscond.png */,
+				42BBF577284F3267000604CF /* nav_profile.png */,
+				42BBF578284F3267000604CF /* ic_sample.png */,
+				42BBF579284F3267000604CF /* ic_home_buy_sell.png */,
+				42BBF57A284F3268000604CF /* chevron-left.png */,
+				42BBF57B284F3268000604CF /* nav_logout.png */,
+				42BBF57C284F3268000604CF /* ic_home_goals.png */,
+				42BBF57D284F3268000604CF /* nav_change_pwd.png */,
+				42BBF57E284F3268000604CF /* nav_payoutalerts.png */,
+				42BBF57F284F3268000604CF /* nav_privacypolicy.png */,
+				42BBF580284F3268000604CF /* nav_referus.png */,
+				42BBF581284F3268000604CF /* nav_calculator.png */,
+				42BBF582284F3268000604CF /* nav_demo.png */,
+				42BBF583284F3268000604CF /* nav_subscription.png */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		42BBF586284F3268000604CF /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF587284F3268000604CF /* kids-education.png */,
+				42BBF588284F3268000604CF /* medical-corpus.png */,
+				42BBF589284F3268000604CF /* others.png */,
+				42BBF58A284F3268000604CF /* loan-payoff.png */,
+				42BBF58B284F3268000604CF /* wealth-creation.png */,
+				42BBF58C284F3268000604CF /* house.png */,
+				42BBF58D284F3268000604CF /* contigency-fund.png */,
+				42BBF58E284F3268000604CF /* retirement.png */,
+				42BBF58F284F3268000604CF /* car.png */,
+				42BBF590284F3268000604CF /* vacation-trip.png */,
+				42BBF591284F3268000604CF /* sabbatical.png */,
+				42BBF592284F3268000604CF /* marriage.png */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		42BBF593284F3268000604CF /* BottomTab */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF594284F3268000604CF /* ic_home_networth.png */,
+				42BBF595284F3268000604CF /* Readings-Active.png */,
+				42BBF596284F3268000604CF /* ic_home_readings.png */,
+				42BBF597284F3268000604CF /* ic_home_dashboard.png */,
+				42BBF598284F3268000604CF /* ic_home_buy_sell.png */,
+				42BBF599284F3268000604CF /* ic_home_goals.png */,
+				42BBF59A284F3268000604CF /* Dashboard-Active.png */,
+				42BBF59B284F3268000604CF /* Networth-Active.png */,
+				42BBF59C284F3268000604CF /* Mutual-Funds-Active.png */,
+				42BBF59D284F3268000604CF /* Assets-Active.png */,
+			);
+			path = BottomTab;
+			sourceTree = "<group>";
+		};
+		42BBF59E284F3268000604CF /* transactions */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF59F284F3268000604CF /* purse.png */,
+			);
+			path = transactions;
+			sourceTree = "<group>";
+		};
+		42BBF5A0284F3268000604CF /* referAndEarn */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF5A1284F3268000604CF /* banner_referearn.png */,
+			);
+			path = referAndEarn;
+			sourceTree = "<group>";
+		};
+		42BBF5A2284F3268000604CF /* ProfileBg */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF5A3284F3268000604CF /* post_bg.png */,
+				42BBF5A4284F3268000604CF /* profile_bg9.png */,
+				42BBF5A5284F3268000604CF /* profile_bg8.png */,
+				42BBF5A6284F3268000604CF /* profile_bg6.png */,
+				42BBF5A7284F3268000604CF /* profile_bg7.png */,
+				42BBF5A8284F3268000604CF /* profile_bg5.png */,
+				42BBF5A9284F3268000604CF /* profile_bg4.png */,
+				42BBF5AA284F3268000604CF /* profile_bg1.png */,
+				42BBF5AB284F3268000604CF /* profile_bg3.png */,
+				42BBF5AC284F3268000604CF /* profile_bg2.png */,
+			);
+			path = ProfileBg;
+			sourceTree = "<group>";
+		};
+		42BBF5AD284F3268000604CF /* MfAdvantages */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF5AE284F3268000604CF /* ic_build_wealth.png */,
+				42BBF5AF284F3268000604CF /* ic_save_for_goal.png */,
+				42BBF5B0284F3268000604CF /* ic_smart_fd.png */,
+				42BBF5B1284F3268000604CF /* ic_save_tax.png */,
+			);
+			path = MfAdvantages;
+			sourceTree = "<group>";
+		};
+		42BBF5B2284F3268000604CF /* Networth */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF5B3284F3268000604CF /* ic_insurance.png */,
+				42BBF5B4284F3268000604CF /* ic_mutual_funds.png */,
+				42BBF5B5284F3268000604CF /* ic_loans.png */,
+				42BBF5B6284F3268000604CF /* ic_real_estate.png */,
+				42BBF5B7284F3268000604CF /* ic_bullions.png */,
+				42BBF5B8284F3268000604CF /* ic_others.png */,
+				42BBF5B9284F3268000604CF /* ic_equity.png */,
+				42BBF5BA284F3268000604CF /* ic_fixed_income.png */,
+				42BBF5BB284F3268000604CF /* ic_expected_lumpsum.png */,
+			);
+			path = Networth;
+			sourceTree = "<group>";
+		};
+		42BBF5BC284F3268000604CF /* notifications */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF5BD284F3268000604CF /* ic_notification_news.png */,
+				42BBF5BE284F3268000604CF /* ic_notification_transaction.png */,
+				42BBF5BF284F3268000604CF /* cast_ic_notification_3.png */,
+				42BBF5C0284F3268000604CF /* ic_notification_blog.png */,
+				42BBF5C1284F3268000604CF /* ic_notification_blog-1.png */,
+				42BBF5C2284F3268000604CF /* birthday_notification_@3x.png */,
+				42BBF5C3284F3268000604CF /* birthday_notification_@2x.png */,
+				42BBF5C4284F3268000604CF /* ic_notification_blog22.png */,
+			);
+			path = notifications;
+			sourceTree = "<group>";
+		};
+		42BBF5C5284F3268000604CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF5C6284F3268000604CF /* login_signup_curtain.png */,
+				42BBF5C7284F3268000604CF /* bg_login.png */,
+				42BBF5C8284F3268000604CF /* moneyfrog_face.png */,
+				42BBF5C9284F3268000604CF /* new_splash_screen.png */,
+				42BBF5CA284F3268000604CF /* android_app_logo.png */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		42BBF5CB284F3268000604CF /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF5CC284F3268000604CF /* scr1.png */,
+				42BBF5CD284F3269000604CF /* scr3.png */,
+				42BBF5CE284F3269000604CF /* scr2.png */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		42BBF5D1284F3269000604CF /* AssetPages */ = {
+			isa = PBXGroup;
+			children = (
+				42BBF5D2284F3269000604CF /* no_data_found.png */,
+			);
+			path = AssetPages;
+			sourceTree = "<group>";
+		};
+		42E3E6FF2850778100D1ED9E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				42E3E7002850778100D1ED9E /* Roboto-Medium.ttf */,
+				42E3E7012850778100D1ED9E /* Roboto-Light.ttf */,
+				42E3E7022850778100D1ED9E /* RobotoCondensed-Bold.ttf */,
+				42E3E7032850778100D1ED9E /* RobotoCondensed-Light.ttf */,
+				42E3E7042850778100D1ED9E /* Roboto-Regular.ttf */,
+				42E3E7052850778100D1ED9E /* Roboto-MediumItalic.ttf */,
+				42E3E7062850778100D1ED9E /* RobotoCondensed-Italic.ttf */,
+				42E3E7072850778100D1ED9E /* RobotoCondensed-BoldItalic.ttf */,
+				42E3E7082850778100D1ED9E /* RobotoCondensed-LightItalic.ttf */,
+				42E3E7092850778100D1ED9E /* Roboto-ThinItalic.ttf */,
+				42E3E70A2850778100D1ED9E /* RobotoCondensed-Regular.ttf */,
+				42E3E70B2850778100D1ED9E /* Roboto-BoldItalic.ttf */,
+				42E3E70C2850778100D1ED9E /* Roboto-LightItalic.ttf */,
+				42E3E70D2850778100D1ED9E /* Roboto-Italic.ttf */,
+				42E3E70E2850778100D1ED9E /* Roboto-BlackItalic.ttf */,
+				42E3E70F2850778100D1ED9E /* Roboto-Bold.ttf */,
+				42E3E7102850778100D1ED9E /* Roboto-Thin.ttf */,
+				42E3E7112850778100D1ED9E /* Roboto-Black.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				42BBF558284F3267000604CF /* assets */,
+				13B07FAE1A68108700A75B9A /* moneyfrog */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* moneyfrogTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				CB47F2D60BDCFA2310ABC50C /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* moneyfrog.app */,
+				00E356EE1AD99517003FC87E /* moneyfrogTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB47F2D60BDCFA2310ABC50C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41DC20D637F0275C41BEEAD8 /* Pods-moneyfrog.debug.xcconfig */,
+				60873254D91D60BD5D78D080 /* Pods-moneyfrog.release.xcconfig */,
+				24FB55095E14C28A9A09A82C /* Pods-moneyfrog-moneyfrogTests.debug.xcconfig */,
+				A33AF6F009765EB6504F160A /* Pods-moneyfrog-moneyfrogTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42BBF555284F2EBC000604CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* moneyfrogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "moneyfrogTests" */;
+			buildPhases = (
+				AEE3B25B4392855381F7910F /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				1D0B7134766D5A17C76EBBD2 /* [CP] Embed Pods Frameworks */,
+				F24D74AD5089B922EF4A5A8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = moneyfrogTests;
+			productName = moneyfrogTests;
+			productReference = 00E356EE1AD99517003FC87E /* moneyfrogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* moneyfrog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "moneyfrog" */;
+			buildPhases = (
+				3194299C268BDC658982286B /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				42BBF555284F2EBC000604CF /* Headers */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				0A21936C17E52C69F4EDF871 /* [CP] Embed Pods Frameworks */,
+				AAB051CE779ACD32B9DEE99D /* [CP] Copy Pods Resources */,
+				B81BE3D4E7AACAEDEE7542D0 /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moneyfrog;
+			productName = moneyfrog;
+			productReference = 13B07F961A680F5B00A75B9A /* moneyfrog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "moneyfrog" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* moneyfrog */,
+				00E356ED1AD99517003FC87E /* moneyfrogTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E3E7162850778100D1ED9E /* Roboto-Regular.ttf in Resources */,
+				42E3E7182850778100D1ED9E /* RobotoCondensed-Italic.ttf in Resources */,
+				42E3E71E2850778100D1ED9E /* Roboto-LightItalic.ttf in Resources */,
+				42E3E71A2850778100D1ED9E /* RobotoCondensed-LightItalic.ttf in Resources */,
+				42E3E71B2850778100D1ED9E /* Roboto-ThinItalic.ttf in Resources */,
+				42E3E71D2850778100D1ED9E /* Roboto-BoldItalic.ttf in Resources */,
+				42E3E7212850778100D1ED9E /* Roboto-Bold.ttf in Resources */,
+				42E3E7192850778100D1ED9E /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				42E3E7222850778100D1ED9E /* Roboto-Thin.ttf in Resources */,
+				42E3E7202850778100D1ED9E /* Roboto-BlackItalic.ttf in Resources */,
+				42E3E71F2850778100D1ED9E /* Roboto-Italic.ttf in Resources */,
+				4284BFE328617FDA00409FC5 /* GoogleService-Info.plist in Resources */,
+				42E3E7122850778100D1ED9E /* Roboto-Medium.ttf in Resources */,
+				42E3E71C2850778100D1ED9E /* RobotoCondensed-Regular.ttf in Resources */,
+				42E3E7232850778100D1ED9E /* Roboto-Black.ttf in Resources */,
+				42E3E7142850778100D1ED9E /* RobotoCondensed-Bold.ttf in Resources */,
+				42E3E7172850778100D1ED9E /* Roboto-MediumItalic.ttf in Resources */,
+				42E3E7132850778100D1ED9E /* Roboto-Light.ttf in Resources */,
+				42E3E7152850778100D1ED9E /* RobotoCondensed-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		0A21936C17E52C69F4EDF871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyfrog/Pods-moneyfrog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyfrog/Pods-moneyfrog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moneyfrog/Pods-moneyfrog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D0B7134766D5A17C76EBBD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyfrog-moneyfrogTests/Pods-moneyfrog-moneyfrogTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyfrog-moneyfrogTests/Pods-moneyfrog-moneyfrogTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moneyfrog-moneyfrogTests/Pods-moneyfrog-moneyfrogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3194299C268BDC658982286B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moneyfrog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB051CE779ACD32B9DEE99D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyfrog/Pods-moneyfrog-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyfrog/Pods-moneyfrog-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moneyfrog/Pods-moneyfrog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE3B25B4392855381F7910F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moneyfrog-moneyfrogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81BE3D4E7AACAEDEE7542D0 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		F24D74AD5089B922EF4A5A8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyfrog-moneyfrogTests/Pods-moneyfrog-moneyfrogTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moneyfrog-moneyfrogTests/Pods-moneyfrog-moneyfrogTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moneyfrog-moneyfrogTests/Pods-moneyfrog-moneyfrogTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* moneyfrogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* moneyfrog */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FB55095E14C28A9A09A82C /* Pods-moneyfrog-moneyfrogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = moneyfrogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneyfrog.app/moneyfrog";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33AF6F009765EB6504F160A /* Pods-moneyfrog-moneyfrogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = moneyfrogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneyfrog.app/moneyfrog";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DC20D637F0275C41BEEAD8 /* Pods-moneyfrog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = moneyfrog/moneyfrog.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EEH23BPW36;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = moneyfrog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moneyfrog;
+				PRODUCT_NAME = moneyfrog;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60873254D91D60BD5D78D080 /* Pods-moneyfrog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = moneyfrog/moneyfrog.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EEH23BPW36;
+				INFOPLIST_FILE = moneyfrog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moneyfrog;
+				PRODUCT_NAME = moneyfrog;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "moneyfrogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "moneyfrog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "moneyfrog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

@@ -1,0 +1,218 @@
+import React, { Component } from 'react';
+import { NavigationActions } from 'react-navigation';
+import { ScrollView, Text, View, StyleSheet ,Image,TouchableOpacity,Button} from 'react-native';
+import { Avatar } from 'react-native-elements';
+import Axios from 'axios';
+import { DrawerActions } from 'react-navigation';
+import AsyncStorage from '@react-native-community/async-storage';
+
+class SideMenu extends Component {
+  constructor() {
+    super();
+    this.state={
+      personalDetails:'',
+      name:'',
+      surname:'',
+      contact:'',
+      profileImage:''
+    }
+    this.options = [
+      { 
+        mainHeading: 'General',
+        subOptions: [
+          { icon: require('../../assets/images/Drawer/ic_home_buy_sell.png') , secondaryHeading: 'Home', navigationPath: 'Screen1' },
+          { icon: require('../../assets/images/Drawer/nav_payoutalerts.png'), secondaryHeading: 'Payout Alerts', navigationPath: 'Screen2' },
+          { icon: require('../../assets/images/Drawer/nav_mypost.png'), secondaryHeading: 'Chat With Advisors', navigationPath: 'Screen3' },
+          { icon: require('../../assets/images/Drawer/nav_demo.png'), secondaryHeading: 'Demo', navigationPath: 'Screen4' },
+          { icon: require('../../assets/images/Drawer/nav_subscription.png'), secondaryHeading: 'What We Offer', navigationPath: 'Screen5' },
+          { icon: require('../../assets/images/Drawer/nav_calculator.png'), secondaryHeading: 'Calculators', navigationPath: 'Screen6' },
+        ],
+      },{
+        mainHeading: 'Account Settings',
+        subOptions: [
+          { icon: require('../../assets/images/Drawer/nav_change_pwd.png'), secondaryHeading: 'Change Password', navigationPath: 'Screen7' },
+          { icon: require('../../assets/images/Drawer/nav_termscond.png'), secondaryHeading: 'Terms And Conditions', navigationPath: 'Screen8' },
+          { icon: require('../../assets/images/Drawer/nav_privacypolicy.png'), secondaryHeading: 'Privacy Policy', navigationPath: 'Screen9' },
+          { icon: require('../../assets/images/Drawer/nav_logout.png'), secondaryHeading: 'Logout', navigationPath: 'Screen10' },
+        ],
+      },
+      {
+        mainHeading: 'Refer',
+        subOptions: [
+          { icon: require('../../assets/images/Drawer/nav_referus.png'), secondaryHeading: 'Refer & Earn', navigationPath: 'Screen11' },
+          { icon: require('../../assets/images/Drawer/nav_share.png'), secondaryHeading: 'Share', navigationPath: 'Screen12' },
+          { icon: require('../../assets/images/Drawer/nav_rateus.png'), secondaryHeading: 'Rate Us', navigationPath: 'Screen13' },
+        ],
+      },
+    ];
+  }
+
+
+  async componentDidMount(){
+    let userId = await AsyncStorage.getItem('userId');
+    let personalDetails = ''
+    const personalDetailsUrl = 'https://moneyfrog.in/api_controller/profile_page/'+userId+'/personal';
+
+    Axios.get(personalDetailsUrl)
+      .then((response) => {
+        personalDetails = response.data.personal_details;
+        this.setState({personalDetails});
+
+        name = personalDetails[0].name;
+        surname = personalDetails[0].surname;
+        contact = personalDetails[0].contact_number;
+        this.setState({name,surname,contact}); 
+      })
+      .catch((error) => console.error(error));
+        let profileOverview = ''
+        const URL = 'http://api.moneyfrog.in/transactions/api/profile/overview/'+userId;
+    
+        Axios.get(URL)
+        .then((response) => {
+          profileOverview = response.data;
+          var profileImage = profileOverview.other_details.image_name;
+          this.setState({profileImage});
+        })
+        .catch((error) => console.error(error));
+  }
+
+
+  navigateToScreen = route => () => {
+    const navigateAction = NavigationActions.navigate({
+      routeName: route,
+    });
+    this.props.navigation.dispatch(DrawerActions.closeDrawer());
+    this.props.navigation.dispatch(navigateAction);
+  };
+
+  
+  render(){
+    const profileImage = this.state.profileImage
+    return (
+      <View style={styles.container}>
+        <ScrollView>
+        <TouchableOpacity 
+        onPress={() => this.props.navigation.navigate('Profile')}
+        > 
+          <View style={styles.headerContainer}>
+            
+            <View style={{marginRight:10}}> 
+              <Avatar rounded
+              size={60}
+              resizeMode="contain"
+              source={require('../../assets/images/Drawer/profile_pic_generic.png')}
+              />
+            </View>
+
+            {/* <View style={{marginRight:10}}> 
+              <Avatar rounded
+              size={60}
+              resizeMode="contain"
+              source={{uri:profileImage}}
+              />
+            </View> */}
+            
+            <View style={{marginTop:5}}>
+              <Text style={styles.headerName}>{this.state.name + ' ' + this.state.surname}</Text>
+              <Text style={styles.headerNumber}>{this.state.contact}</Text>
+            </View>          
+              
+          </View>
+          
+        </TouchableOpacity>
+         
+          <View>
+            {this.options.map((option, key) => (
+              <View key={option.mainHeading}>
+                  <View style={styles.divider}></View>
+                  <Text style={styles.mainHeadingStyle} >{option.mainHeading}</Text>
+                  {option.subOptions.map((item, key) => (
+                    <TouchableOpacity key={item.icon}
+                      onPress={this.navigateToScreen(item.navigationPath)}>
+                      <View 
+                      style={styles.secondaryHeadingContainer} 
+                      >
+                      <Image 
+                      style ={styles.iconStyle}
+                      source={item.icon}
+                      />
+                      <Text 
+                      style={styles.secondaryHeadingStyle}>
+                        {item.secondaryHeading}
+                      </Text>
+                      </View>
+                    </TouchableOpacity>
+                  ))}
+              </View>
+            ))}
+          </View>
+        </ScrollView>
+        <View style={styles.footerContainer}>
+          <Text style={styles.footer}> Current Version : 6.0.5</Text>
+        </View>
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  secondaryHeadingContainer: {
+    padding: 13,
+    flexDirection:'row',
+    alignItems:'center',
+  },
+  secondaryHeadingStyle:{
+    fontSize:14,
+    fontFamily:'Lato-Regular'
+  },
+  mainHeadingStyle: {
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    color:'grey',
+    fontFamily:'Lato-Regular'
+  },
+  footerContainer: {
+    padding: 15,
+    backgroundColor: '#f2f2f2',
+    alignItems:'center',
+    justifyContent:'center'
+  },
+  headerContainer:{
+    alignItems:'center',
+    padding: 10,
+    backgroundColor: '#f2f2f2',
+    flexDirection:'row'
+  },
+  footer:{
+    color:'grey',
+    // fontSize:15,
+    fontFamily:'Lato-Regular'
+  },
+  headerNumber:{
+    color:'grey',
+    fontSize:16,
+    fontFamily:'Lato-Bold'
+  },
+  headerName:{
+    color:'grey',
+    fontSize:17,
+    fontFamily:'Lato-Bold'
+  },
+  divider:{
+    borderBottomColor: "lightgrey", 
+    borderBottomWidth:1, 
+    alignSelf:'center',
+    width: "100%",
+  },
+  iconStyle:{
+    width: 25,
+    height: 25,
+    marginRight:17,
+    marginLeft:5
+  }
+});
+
+export default SideMenu;

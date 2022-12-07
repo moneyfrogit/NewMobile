@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1059228338412-l016vmh947q4i54qbelnk1desf0m85jv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1059228338412-l016vmh947q4i54qbelnk1desf0m85jv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1059228338412-maj9k2km4v72ue8gr2lhldnjsuiote77.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBGlcWoX7uheSUq5Rs6RuJ7RuqKah8C_oQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1059228338412</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.moneyfrog</string>
+	<key>PROJECT_ID</key>
+	<string>moneyfrog-2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>moneyfrog-2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1059228338412:ios:fbf8158b6214ec8a197dc9</string>
+</dict>
+</plist>
